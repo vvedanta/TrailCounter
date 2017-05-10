@@ -1,6 +1,6 @@
 # TrailCounter
 
-Embedded Trail Counter Utilizing Accelerometer, Gyro, and Cell Modem
+Embedded Trail Counter Utilizing Accelerometer, Gyro, and Cell Modem. Requires ChibiOS Directory at root.
 
 **Thank you to my wonderful partner on this project, Maggie Oates. Good luck with your PHD!**  
 
