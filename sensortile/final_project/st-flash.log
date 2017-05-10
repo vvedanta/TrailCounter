@@ -1,0 +1,16 @@
+2017-03-10T02:24:18 INFO src/stlink-usb.c: -- exit_dfu_mode
+2017-03-10T02:24:18 INFO src/stlink-common.c: Loading device parameters....
+2017-03-10T02:24:18 INFO src/stlink-common.c: Device connected is: L4 device, id 0x10076415
+2017-03-10T02:24:18 INFO src/stlink-common.c: SRAM size: 0x18000 bytes (96 KiB), Flash: 0x100000 bytes (1024 KiB) in pages of 2048 bytes
+2017-03-10T02:24:18 INFO src/stlink-common.c: Attempting to write 99340 (0x1840c) bytes to stm32 address: 134217728 (0x8000000)
+Flash page at addr: 0x08000000 erasedFlash page at addr: 0x08000800 erasedFlash page at addr: 0x08001000 erasedFlash page at addr: 0x08001800 erasedFlash page at addr: 0x08002000 erasedFlash page at addr: 0x08002800 erasedFlash page at addr: 0x08003000 erasedFlash page at addr: 0x08003800 erasedFlash page at addr: 0x08004000 erasedFlash page at addr: 0x08004800 erasedFlash page at addr: 0x08005000 erasedFlash page at addr: 0x08005800 erasedFlash page at addr: 0x08006000 erasedFlash page at addr: 0x08006800 erasedFlash page at addr: 0x08007000 erasedFlash page at addr: 0x08007800 erasedFlash page at addr: 0x08008000 erasedFlash page at addr: 0x08008800 erasedFlash page at addr: 0x08009000 erasedFlash page at addr: 0x08009800 erasedFlash page at addr: 0x0800a000 erasedFlash page at addr: 0x0800a800 erasedFlash page at addr: 0x0800b000 erasedFlash page at addr: 0x0800b800 erasedFlash page at addr: 0x0800c000 erasedFlash page at addr: 0x0800c800 erasedFlash page at addr: 0x0800d000 erasedFlash page at addr: 0x0800d800 erasedFlash page at addr: 0x0800e000 erasedFlash page at addr: 0x0800e800 erasedFlash page at addr: 0x0800f000 erasedFlash page at addr: 0x0800f800 erasedFlash page at addr: 0x08010000 erasedFlash page at addr: 0x08010800 erasedFlash page at addr: 0x08011000 erasedFlash page at addr: 0x08011800 erasedFlash page at addr: 0x08012000 erasedFlash page at addr: 0x08012800 erasedFlash page at addr: 0x08013000 erasedFlash page at addr: 0x08013800 erasedFlash page at addr: 0x08014000 erasedFlash page at addr: 0x08014800 erasedFlash page at addr: 0x08015000 erasedFlash page at addr: 0x08015800 erasedFlash page at addr: 0x08016000 erasedFlash page at addr: 0x08016800 erasedFlash page at addr: 0x08017000 erasedFlash page at addr: 0x08017800 erasedFlash page at addr: 0x08018000 erased2017-03-10T02:24:18 INFO src/stlink-common.c: Finished erasing 49 pages of 2048 (0x800) bytes
+2017-03-10T02:24:18 INFO src/stlink-common.c: Starting Flash write for F2/F4/L4
+2017-03-10T02:24:18 INFO src/stlink-common.c: Successfully loaded flash loader in sram
+2017-03-10T02:24:20 INFO src/stlink-common.c: Starting verification of write complete
+2017-03-10T02:24:21 ERROR src/stlink-common.c: Verification of flash failed at offset: 0
+
+size: 32768
+size: 32768
+size: 32768
+size: 1036
+stlink_fwrite_flash() == -1
